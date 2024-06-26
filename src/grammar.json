@@ -5944,7 +5944,8 @@
       "members": [
         {
           "type": "PATTERN",
-          "value": "[\\x00-\\x7f]"
+          "value": "[\\x00-\\x7f]",
+          "flags": "u"
         },
         {
           "type": "SYMBOL",
@@ -5957,7 +5958,8 @@
       "members": [
         {
           "type": "PATTERN",
-          "value": "[\\x00-\\x09\\x0b-\\x7f]"
+          "value": "[\\x00-\\x09\\x0b-\\x7f]",
+          "flags": "u"
         },
         {
           "type": "SYMBOL",
@@ -6171,4 +6173,3 @@
     "pat_plain"
   ]
 }
-
